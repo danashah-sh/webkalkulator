@@ -1,7 +1,7 @@
 import { fakultet } from './fakultet.js';
 
 function regnUt(evt) {
-    evt.preventDefault(); // hindrer at siden refresher
+    evt.preventDefault(); 
     const input = document.querySelector('#fakultet input');
     const output = document.querySelector('#fakultet .resultat');
     const tall = parseInt(input.value);

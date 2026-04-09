@@ -2,7 +2,6 @@ import { fakultet } from './fakultet.js';
 import test from 'node:test';
 import * as assert from 'node:assert';
 
-// Tester ulike tilfeller
 test('fakultet av negative tall er 1', () => {
     assert.strictEqual(fakultet(-5), 1);
 });
