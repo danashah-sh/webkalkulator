@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hent kode
+        uses: actions/checkout@v3
+
+      - name: Sett opp Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Installer
+        run: npm install
+
+      - name: Kjør tester
+        run: npm test
