@@ -2,17 +2,34 @@
 <html lang="no">
 <head>
     <meta charset="UTF-8">
-    <title>kalkulator</title>
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>kalkulator</h1>
+    <h1>Kalkulator</h1>
 
     <div id="fakultet">
+        <h2>Fakultet</h2>
         <form>
             <input name="tall" placeholder="Tall" type="number">
             <button>Regn ut fakultet</button>
         </form>
-        <p>Resultatet er: <span class="resultat"></span></p>
+        <p>Resultat: <span class="resultat"></span></p>
+    </div>
+
+ 
+    <div id="fizzbuzz">
+        <h2>FizzBuzz</h2>
+        <input type="number" placeholder="Tall">
+        <button>Beregn</button>
+        <p>Resultat: <span class="resultat"></span></p>
+    </div>
+
+    <div id="fibonacci">
+        <h2>Fibonacci</h2>
+        <input type="number" placeholder="Tall">
+        <button>Beregn</button>
+        <p>Resultat: <span class="resultat"></span></p>
     </div>
 
     <script type="module" src="script.js"></script>
