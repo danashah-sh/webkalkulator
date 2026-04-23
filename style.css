@@ -1,51 +1,50 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f6f8;
-  padding: 30px;
+body { /* Hele siden */
+  font-family: Arial, sans-serif; /* Skrifttype */
+  background-color: #f4f6f8; /* Bakgrunnsfarge */
+  padding: 30px; /* Avstand rundt innholdet */
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: 40px;
+h1 { /* Hovedoverskrift */
+  text-align: center; /* Sentrerer teksten */
+  margin-bottom: 40px; /* Avstand under */
 }
 
-div {
-  background: white;
-  padding: 20px;
-  margin-bottom: 25px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+div { /* Alle bokser */
+  background: white; /* Hvit bakgrunn */
+  padding: 20px; /* Avstand inni boksen */
+  margin-bottom: 25px; /* Avstand mellom bokser */
+  border-radius: 10px; /* Runde hjørner */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Skygge */
 }
 
-h2 {
-  margin-top: 0;
+h2 { /* Underoverskrifter */
+  margin-top: 0; /* Fjerner avstand over */
 }
 
-input {
-  padding: 8px;
-  font-size: 16px;
-  width: 200px;
-  margin-right: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+input { /* Input-felt */
+  padding: 8px; /* Innvendig avstand */
+  font-size: 16px; /* Tekststørrelse */
+  width: 200px; /* Bredde */
+  margin-right: 10px; /* Avstand til høyre */
+  border-radius: 5px; /* Runde hjørner */
+  border: 1px solid #ccc; /* Grå kant */
 }
 
-button {
-  padding: 8px 15px;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  background-color: #e7b9d5;
-  color: white;
-  cursor: pointer;
+button { /* Knapper */
+  padding: 8px 15px; /* Avstand inni knappen */
+  font-size: 16px; /* Tekststørrelse */
+  border: none; /* Ingen kant */
+  border-radius: 5px; /* Runde hjørner */
+  background-color: #e7b9d5; /* Bakgrunnsfarge */
+  color: white; /* Tekstfarge */
+  cursor: pointer; /* Mus blir hånd */
 }
 
-button:hover {
-  background-color: #ff009d;
+button:hover { /* Når musa er over knappen */
+  background-color: #ff009d; /* Endrer farge */
 }
 
-
-.resultat {
-  font-weight: bold;
-  color: #333;
+.resultat { /* Resultat-tekst */
+  font-weight: bold; /* Fet tekst */
+  color: #333; /* Mørk grå farge */
 }
